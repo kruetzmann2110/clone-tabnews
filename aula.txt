@@ -1,1 +1,17 @@
 git add .gitignore - exemplo de como subir um novo arquivo no repositorio 
+
+git add aula.txt
+git status          # só pra ter certeza
+git commit -m "cria aula.txt"
+git push origin main
+
+git log - serve para ver o que subiu em cada comit 
+
+
+git remote -v verifica no git desktop se esta logado na pasta correta 
+
+caso nao esteja logado , conectar como  git remote add origin https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+depois de logado e estar na pasta correta 
+git fetch origin
+git pull origin main    # ou main/master, dependendo do seu branch principal
