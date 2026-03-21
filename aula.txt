@@ -1,0 +1,1 @@
+git add .gitignore - exemplo de como subir um novo arquivo no repositorio 
